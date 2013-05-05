@@ -17,9 +17,33 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+   
+    
+    // init the view controller
+    UIViewController *rootView = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    // The following line was added to handle the secondary view controller (JokeViewController)
+    self.navController = [[UINavigationController alloc] initWithRootViewController:rootView];
+    
+    // set as root view
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
+
+/*
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+ 
+    // init the view controller
+    UIViewController *rootView = [[GuessingCatViewController alloc] initWithNibName:@"GuessingCatViewController" bundle:nil];
+    self.navController = [[UINavigationController alloc] initWithRootViewController:rootView];
+ 
+    // set as root view
+    [[self window] setRootViewController:self.navController];
+    [self.window makeKeyAndVisible];
+    return YES;
+ */
+
+    
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

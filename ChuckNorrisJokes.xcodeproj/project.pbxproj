@@ -13,11 +13,47 @@
 		F26B75041735CBF700518B56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F26B75021735CBF700518B56 /* InfoPlist.strings */; };
 		F26B75061735CBF700518B56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F26B75051735CBF700518B56 /* main.m */; };
 		F26B750A1735CBF700518B56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F26B75091735CBF700518B56 /* AppDelegate.m */; };
-		F26B750C1735CBF700518B56 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F26B750B1735CBF700518B56 /* Default.png */; };
-		F26B750E1735CBF700518B56 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F26B750D1735CBF700518B56 /* Default@2x.png */; };
-		F26B75101735CBF700518B56 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F26B750F1735CBF700518B56 /* Default-568h@2x.png */; };
 		F26B75131735CBF700518B56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26B75121735CBF700518B56 /* ViewController.m */; };
 		F26B75161735CBF700518B56 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F26B75141735CBF700518B56 /* ViewController.xib */; };
+		F26B751F1735CCAE00518B56 /* JokeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26B751D1735CCAE00518B56 /* JokeViewController.m */; };
+		F26B75201735CCAE00518B56 /* JokeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F26B751E1735CCAE00518B56 /* JokeViewController.xib */; };
+		F26B75221735CDC800518B56 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26B75211735CDC800518B56 /* AudioToolbox.framework */; };
+		F26B75241735CDD000518B56 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26B75231735CDD000518B56 /* AVFoundation.framework */; };
+		F26B75361735CE5200518B56 /* cmu07a.dic in Resources */ = {isa = PBXBuildFile; fileRef = F26B75261735CE5100518B56 /* cmu07a.dic */; };
+		F26B75371735CE5200518B56 /* feat.params in Resources */ = {isa = PBXBuildFile; fileRef = F26B75281735CE5100518B56 /* feat.params */; };
+		F26B75381735CE5200518B56 /* mdef in Resources */ = {isa = PBXBuildFile; fileRef = F26B75291735CE5100518B56 /* mdef */; };
+		F26B75391735CE5200518B56 /* means in Resources */ = {isa = PBXBuildFile; fileRef = F26B752A1735CE5100518B56 /* means */; };
+		F26B753A1735CE5200518B56 /* noisedict in Resources */ = {isa = PBXBuildFile; fileRef = F26B752B1735CE5100518B56 /* noisedict */; };
+		F26B753B1735CE5200518B56 /* sendump in Resources */ = {isa = PBXBuildFile; fileRef = F26B752C1735CE5100518B56 /* sendump */; };
+		F26B753C1735CE5200518B56 /* transition_matrices in Resources */ = {isa = PBXBuildFile; fileRef = F26B752D1735CE5100518B56 /* transition_matrices */; };
+		F26B753D1735CE5200518B56 /* variances in Resources */ = {isa = PBXBuildFile; fileRef = F26B752E1735CE5100518B56 /* variances */; };
+		F26B753E1735CE5200518B56 /* OpenEars.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26B752F1735CE5100518B56 /* OpenEars.framework */; };
+		F26B753F1735CE5200518B56 /* OpenEars1.dic in Resources */ = {isa = PBXBuildFile; fileRef = F26B75301735CE5100518B56 /* OpenEars1.dic */; };
+		F26B75401735CE5200518B56 /* OpenEars1.gram in Resources */ = {isa = PBXBuildFile; fileRef = F26B75311735CE5200518B56 /* OpenEars1.gram */; };
+		F26B75411735CE5200518B56 /* OpenEars1.languagemodel in Resources */ = {isa = PBXBuildFile; fileRef = F26B75321735CE5200518B56 /* OpenEars1.languagemodel */; };
+		F26B75421735CE5200518B56 /* OpenEars2.gram in Resources */ = {isa = PBXBuildFile; fileRef = F26B75331735CE5200518B56 /* OpenEars2.gram */; };
+		F26B75431735CE5200518B56 /* OpenEarsCorpus.txt in Resources */ = {isa = PBXBuildFile; fileRef = F26B75341735CE5200518B56 /* OpenEarsCorpus.txt */; };
+		F26B75441735CE5200518B56 /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26B75351735CE5200518B56 /* Slt.framework */; };
+		F26B75591735CE7200518B56 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F26B75471735CE7200518B56 /* AFHTTPClient.m */; };
+		F26B755A1735CE7200518B56 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F26B75491735CE7200518B56 /* AFHTTPRequestOperation.m */; };
+		F26B755B1735CE7200518B56 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F26B754B1735CE7200518B56 /* AFImageRequestOperation.m */; };
+		F26B755C1735CE7200518B56 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F26B754D1735CE7200518B56 /* AFJSONRequestOperation.m */; };
+		F26B755D1735CE7200518B56 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F26B754F1735CE7200518B56 /* AFNetworkActivityIndicatorManager.m */; };
+		F26B755E1735CE7200518B56 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F26B75521735CE7200518B56 /* AFPropertyListRequestOperation.m */; };
+		F26B755F1735CE7200518B56 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F26B75541735CE7200518B56 /* AFURLConnectionOperation.m */; };
+		F26B75601735CE7200518B56 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F26B75561735CE7200518B56 /* AFXMLRequestOperation.m */; };
+		F26B75611735CE7200518B56 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = F26B75581735CE7200518B56 /* UIImageView+AFNetworking.m */; };
+		F26B75651735D1C800518B56 /* CN_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F26B75641735D1C800518B56 /* CN_icon.png */; };
+		F26B75671735D1DC00518B56 /* CN_icon_small.png in Resources */ = {isa = PBXBuildFile; fileRef = F26B75661735D1DC00518B56 /* CN_icon_small.png */; };
+		F26B756F1735D2B400518B56 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F26B756E1735D2B400518B56 /* Default.png */; };
+		F26B75731735D5B200518B56 /* ChuckNorris in Resources */ = {isa = PBXBuildFile; fileRef = F26B75721735D5B200518B56 /* ChuckNorris */; };
+		F26B75751735D5DA00518B56 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F26B75741735D5DA00518B56 /* Default@2x.png */; };
+		F26B75771735D5E800518B56 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F26B75761735D5E800518B56 /* Default-568h@2x.png */; };
+		F26B75791735DCB300518B56 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26B75781735DCB300518B56 /* MobileCoreServices.framework */; };
+		F26B757B1735DCC300518B56 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26B757A1735DCC300518B56 /* SystemConfiguration.framework */; };
+		F26B757F1735E3DD00518B56 /* Joke.m in Sources */ = {isa = PBXBuildFile; fileRef = F26B757E1735E3DD00518B56 /* Joke.m */; };
+		F26B758217360F5500518B56 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F26B758117360F5500518B56 /* MBProgressHUD.m */; };
+		F26B75861736222800518B56 /* Vh-5-chuck-norris-and-onions.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F26B75851736222800518B56 /* Vh-5-chuck-norris-and-onions.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,12 +67,61 @@
 		F26B75071735CBF700518B56 /* ChuckNorrisJokes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChuckNorrisJokes-Prefix.pch"; sourceTree = "<group>"; };
 		F26B75081735CBF700518B56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F26B75091735CBF700518B56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F26B750B1735CBF700518B56 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		F26B750D1735CBF700518B56 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		F26B750F1735CBF700518B56 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F26B75111735CBF700518B56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F26B75121735CBF700518B56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F26B75151735CBF700518B56 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F26B751C1735CCAE00518B56 /* JokeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JokeViewController.h; path = ../JokeViewController.h; sourceTree = "<group>"; };
+		F26B751D1735CCAE00518B56 /* JokeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JokeViewController.m; path = ../JokeViewController.m; sourceTree = "<group>"; };
+		F26B751E1735CCAE00518B56 /* JokeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = JokeViewController.xib; path = ../JokeViewController.xib; sourceTree = "<group>"; };
+		F26B75211735CDC800518B56 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F26B75231735CDD000518B56 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F26B75261735CE5100518B56 /* cmu07a.dic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cmu07a.dic; sourceTree = "<group>"; };
+		F26B75281735CE5100518B56 /* feat.params */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = feat.params; sourceTree = "<group>"; };
+		F26B75291735CE5100518B56 /* mdef */ = {isa = PBXFileReference; lastKnownFileType = file; path = mdef; sourceTree = "<group>"; };
+		F26B752A1735CE5100518B56 /* means */ = {isa = PBXFileReference; lastKnownFileType = file; path = means; sourceTree = "<group>"; };
+		F26B752B1735CE5100518B56 /* noisedict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = noisedict; sourceTree = "<group>"; };
+		F26B752C1735CE5100518B56 /* sendump */ = {isa = PBXFileReference; lastKnownFileType = file; path = sendump; sourceTree = "<group>"; };
+		F26B752D1735CE5100518B56 /* transition_matrices */ = {isa = PBXFileReference; lastKnownFileType = file; path = transition_matrices; sourceTree = "<group>"; };
+		F26B752E1735CE5100518B56 /* variances */ = {isa = PBXFileReference; lastKnownFileType = file; path = variances; sourceTree = "<group>"; };
+		F26B752F1735CE5100518B56 /* OpenEars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenEars.framework; sourceTree = "<group>"; };
+		F26B75301735CE5100518B56 /* OpenEars1.dic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenEars1.dic; sourceTree = "<group>"; };
+		F26B75311735CE5200518B56 /* OpenEars1.gram */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenEars1.gram; sourceTree = "<group>"; };
+		F26B75321735CE5200518B56 /* OpenEars1.languagemodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenEars1.languagemodel; sourceTree = "<group>"; };
+		F26B75331735CE5200518B56 /* OpenEars2.gram */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenEars2.gram; sourceTree = "<group>"; };
+		F26B75341735CE5200518B56 /* OpenEarsCorpus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OpenEarsCorpus.txt; sourceTree = "<group>"; };
+		F26B75351735CE5200518B56 /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
+		F26B75461735CE7200518B56 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		F26B75471735CE7200518B56 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		F26B75481735CE7200518B56 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		F26B75491735CE7200518B56 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		F26B754A1735CE7200518B56 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		F26B754B1735CE7200518B56 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		F26B754C1735CE7200518B56 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		F26B754D1735CE7200518B56 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		F26B754E1735CE7200518B56 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		F26B754F1735CE7200518B56 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		F26B75501735CE7200518B56 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		F26B75511735CE7200518B56 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		F26B75521735CE7200518B56 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		F26B75531735CE7200518B56 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		F26B75541735CE7200518B56 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		F26B75551735CE7200518B56 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		F26B75561735CE7200518B56 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		F26B75571735CE7200518B56 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		F26B75581735CE7200518B56 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		F26B75641735D1C800518B56 /* CN_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CN_icon.png; sourceTree = "<group>"; };
+		F26B75661735D1DC00518B56 /* CN_icon_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CN_icon_small.png; sourceTree = "<group>"; };
+		F26B756E1735D2B400518B56 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		F26B75721735D5B200518B56 /* ChuckNorris */ = {isa = PBXFileReference; lastKnownFileType = file; path = ChuckNorris; sourceTree = "<group>"; };
+		F26B75741735D5DA00518B56 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		F26B75761735D5E800518B56 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		F26B75781735DCB300518B56 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F26B757A1735DCC300518B56 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F26B757D1735E3DD00518B56 /* Joke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joke.h; sourceTree = "<group>"; };
+		F26B757E1735E3DD00518B56 /* Joke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Joke.m; sourceTree = "<group>"; };
+		F26B758117360F5500518B56 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		F26B758317360F7700518B56 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		F26B75851736222800518B56 /* Vh-5-chuck-norris-and-onions.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Vh-5-chuck-norris-and-onions.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +129,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F26B757B1735DCC300518B56 /* SystemConfiguration.framework in Frameworks */,
+				F26B75791735DCB300518B56 /* MobileCoreServices.framework in Frameworks */,
+				F26B75241735CDD000518B56 /* AVFoundation.framework in Frameworks */,
+				F26B75221735CDC800518B56 /* AudioToolbox.framework in Frameworks */,
 				F26B74FA1735CBF700518B56 /* UIKit.framework in Frameworks */,
 				F26B74FC1735CBF700518B56 /* Foundation.framework in Frameworks */,
 				F26B74FE1735CBF700518B56 /* CoreGraphics.framework in Frameworks */,
+				F26B753E1735CE5200518B56 /* OpenEars.framework in Frameworks */,
+				F26B75441735CE5200518B56 /* Slt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +164,10 @@
 		F26B74F81735CBF700518B56 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F26B757A1735DCC300518B56 /* SystemConfiguration.framework */,
+				F26B75781735DCB300518B56 /* MobileCoreServices.framework */,
+				F26B75211735CDC800518B56 /* AudioToolbox.framework */,
+				F26B75231735CDD000518B56 /* AVFoundation.framework */,
 				F26B74F91735CBF700518B56 /* UIKit.framework */,
 				F26B74FB1735CBF700518B56 /* Foundation.framework */,
 				F26B74FD1735CBF700518B56 /* CoreGraphics.framework */,
@@ -83,6 +178,13 @@
 		F26B74FF1735CBF700518B56 /* ChuckNorrisJokes */ = {
 			isa = PBXGroup;
 			children = (
+				F26B758417360FCD00518B56 /* MBProgressHUD */,
+				F26B757C1735E26100518B56 /* Model */,
+				F26B75451735CE7200518B56 /* AFNetworking */,
+				F26B75251735CE5100518B56 /* Framework */,
+				F26B751C1735CCAE00518B56 /* JokeViewController.h */,
+				F26B751D1735CCAE00518B56 /* JokeViewController.m */,
+				F26B751E1735CCAE00518B56 /* JokeViewController.xib */,
 				F26B75081735CBF700518B56 /* AppDelegate.h */,
 				F26B75091735CBF700518B56 /* AppDelegate.m */,
 				F26B75111735CBF700518B56 /* ViewController.h */,
@@ -96,15 +198,93 @@
 		F26B75001735CBF700518B56 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F26B75851736222800518B56 /* Vh-5-chuck-norris-and-onions.jpg */,
+				F26B756E1735D2B400518B56 /* Default.png */,
+				F26B75741735D5DA00518B56 /* Default@2x.png */,
+				F26B75761735D5E800518B56 /* Default-568h@2x.png */,
+				F26B75721735D5B200518B56 /* ChuckNorris */,
+				F26B75661735D1DC00518B56 /* CN_icon_small.png */,
+				F26B75641735D1C800518B56 /* CN_icon.png */,
 				F26B75011735CBF700518B56 /* ChuckNorrisJokes-Info.plist */,
 				F26B75021735CBF700518B56 /* InfoPlist.strings */,
 				F26B75051735CBF700518B56 /* main.m */,
 				F26B75071735CBF700518B56 /* ChuckNorrisJokes-Prefix.pch */,
-				F26B750B1735CBF700518B56 /* Default.png */,
-				F26B750D1735CBF700518B56 /* Default@2x.png */,
-				F26B750F1735CBF700518B56 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F26B75251735CE5100518B56 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				F26B75261735CE5100518B56 /* cmu07a.dic */,
+				F26B75271735CE5100518B56 /* hub4wsj_sc_8k */,
+				F26B752F1735CE5100518B56 /* OpenEars.framework */,
+				F26B75301735CE5100518B56 /* OpenEars1.dic */,
+				F26B75311735CE5200518B56 /* OpenEars1.gram */,
+				F26B75321735CE5200518B56 /* OpenEars1.languagemodel */,
+				F26B75331735CE5200518B56 /* OpenEars2.gram */,
+				F26B75341735CE5200518B56 /* OpenEarsCorpus.txt */,
+				F26B75351735CE5200518B56 /* Slt.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		F26B75271735CE5100518B56 /* hub4wsj_sc_8k */ = {
+			isa = PBXGroup;
+			children = (
+				F26B75281735CE5100518B56 /* feat.params */,
+				F26B75291735CE5100518B56 /* mdef */,
+				F26B752A1735CE5100518B56 /* means */,
+				F26B752B1735CE5100518B56 /* noisedict */,
+				F26B752C1735CE5100518B56 /* sendump */,
+				F26B752D1735CE5100518B56 /* transition_matrices */,
+				F26B752E1735CE5100518B56 /* variances */,
+			);
+			path = hub4wsj_sc_8k;
+			sourceTree = "<group>";
+		};
+		F26B75451735CE7200518B56 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				F26B75461735CE7200518B56 /* AFHTTPClient.h */,
+				F26B75471735CE7200518B56 /* AFHTTPClient.m */,
+				F26B75481735CE7200518B56 /* AFHTTPRequestOperation.h */,
+				F26B75491735CE7200518B56 /* AFHTTPRequestOperation.m */,
+				F26B754A1735CE7200518B56 /* AFImageRequestOperation.h */,
+				F26B754B1735CE7200518B56 /* AFImageRequestOperation.m */,
+				F26B754C1735CE7200518B56 /* AFJSONRequestOperation.h */,
+				F26B754D1735CE7200518B56 /* AFJSONRequestOperation.m */,
+				F26B754E1735CE7200518B56 /* AFNetworkActivityIndicatorManager.h */,
+				F26B754F1735CE7200518B56 /* AFNetworkActivityIndicatorManager.m */,
+				F26B75501735CE7200518B56 /* AFNetworking.h */,
+				F26B75511735CE7200518B56 /* AFPropertyListRequestOperation.h */,
+				F26B75521735CE7200518B56 /* AFPropertyListRequestOperation.m */,
+				F26B75531735CE7200518B56 /* AFURLConnectionOperation.h */,
+				F26B75541735CE7200518B56 /* AFURLConnectionOperation.m */,
+				F26B75551735CE7200518B56 /* AFXMLRequestOperation.h */,
+				F26B75561735CE7200518B56 /* AFXMLRequestOperation.m */,
+				F26B75571735CE7200518B56 /* UIImageView+AFNetworking.h */,
+				F26B75581735CE7200518B56 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		F26B757C1735E26100518B56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F26B757D1735E3DD00518B56 /* Joke.h */,
+				F26B757E1735E3DD00518B56 /* Joke.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F26B758417360FCD00518B56 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F26B758117360F5500518B56 /* MBProgressHUD.m */,
+				F26B758317360F7700518B56 /* MBProgressHUD.h */,
+			);
+			name = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,10 +339,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				F26B75041735CBF700518B56 /* InfoPlist.strings in Resources */,
-				F26B750C1735CBF700518B56 /* Default.png in Resources */,
-				F26B750E1735CBF700518B56 /* Default@2x.png in Resources */,
-				F26B75101735CBF700518B56 /* Default-568h@2x.png in Resources */,
 				F26B75161735CBF700518B56 /* ViewController.xib in Resources */,
+				F26B75201735CCAE00518B56 /* JokeViewController.xib in Resources */,
+				F26B75361735CE5200518B56 /* cmu07a.dic in Resources */,
+				F26B75371735CE5200518B56 /* feat.params in Resources */,
+				F26B75381735CE5200518B56 /* mdef in Resources */,
+				F26B75391735CE5200518B56 /* means in Resources */,
+				F26B753A1735CE5200518B56 /* noisedict in Resources */,
+				F26B753B1735CE5200518B56 /* sendump in Resources */,
+				F26B753C1735CE5200518B56 /* transition_matrices in Resources */,
+				F26B753D1735CE5200518B56 /* variances in Resources */,
+				F26B753F1735CE5200518B56 /* OpenEars1.dic in Resources */,
+				F26B75401735CE5200518B56 /* OpenEars1.gram in Resources */,
+				F26B75411735CE5200518B56 /* OpenEars1.languagemodel in Resources */,
+				F26B75421735CE5200518B56 /* OpenEars2.gram in Resources */,
+				F26B75431735CE5200518B56 /* OpenEarsCorpus.txt in Resources */,
+				F26B75651735D1C800518B56 /* CN_icon.png in Resources */,
+				F26B75671735D1DC00518B56 /* CN_icon_small.png in Resources */,
+				F26B756F1735D2B400518B56 /* Default.png in Resources */,
+				F26B75731735D5B200518B56 /* ChuckNorris in Resources */,
+				F26B75751735D5DA00518B56 /* Default@2x.png in Resources */,
+				F26B75771735D5E800518B56 /* Default-568h@2x.png in Resources */,
+				F26B75861736222800518B56 /* Vh-5-chuck-norris-and-onions.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +374,18 @@
 				F26B75061735CBF700518B56 /* main.m in Sources */,
 				F26B750A1735CBF700518B56 /* AppDelegate.m in Sources */,
 				F26B75131735CBF700518B56 /* ViewController.m in Sources */,
+				F26B751F1735CCAE00518B56 /* JokeViewController.m in Sources */,
+				F26B75591735CE7200518B56 /* AFHTTPClient.m in Sources */,
+				F26B755A1735CE7200518B56 /* AFHTTPRequestOperation.m in Sources */,
+				F26B755B1735CE7200518B56 /* AFImageRequestOperation.m in Sources */,
+				F26B755C1735CE7200518B56 /* AFJSONRequestOperation.m in Sources */,
+				F26B755D1735CE7200518B56 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				F26B755E1735CE7200518B56 /* AFPropertyListRequestOperation.m in Sources */,
+				F26B755F1735CE7200518B56 /* AFURLConnectionOperation.m in Sources */,
+				F26B75601735CE7200518B56 /* AFXMLRequestOperation.m in Sources */,
+				F26B75611735CE7200518B56 /* UIImageView+AFNetworking.m in Sources */,
+				F26B757F1735E3DD00518B56 /* Joke.m in Sources */,
+				F26B758217360F5500518B56 /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +470,10 @@
 		F26B751A1735CBF700518B56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ChuckNorrisJokes/Framework\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChuckNorrisJokes/ChuckNorrisJokes-Prefix.pch";
 				INFOPLIST_FILE = "ChuckNorrisJokes/ChuckNorrisJokes-Info.plist";
@@ -271,6 +485,10 @@
 		F26B751B1735CBF700518B56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ChuckNorrisJokes/Framework\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChuckNorrisJokes/ChuckNorrisJokes-Prefix.pch";
 				INFOPLIST_FILE = "ChuckNorrisJokes/ChuckNorrisJokes-Info.plist";
